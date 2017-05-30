@@ -1,12 +1,8 @@
 FROM debian:latest 
 
-# Add notices - JBG
 ADD txt/header.txt /root
-ADD txt/footer.txt /root
 
-# Setup repos - JBG
-RUN cat /root/header.txt; \
-	echo "127.0.0.1  example.com  example" >> /etc/hosts; \
+RUN echo "127.0.0.1  example.com  example" >> /etc/hosts; \
   echo "deb http://packages.hubzero.org/deb ellie-deb8 main" >> /etc/apt/sources.list; \
   echo "deb http://ftp.us.debian.org/debian jessie main" >> /etc/apt/sources.list; \
   echo "deb http://ftp.nl.debian.org/debian jessie main" >> /etc/apt/sources.list; \
@@ -39,10 +35,10 @@ RUN a2enmod proxy; \
 
 WORKDIR /root
 
+RUN cat /root/header.txt; \
+	cat /etc/hubzero.secrets
+
 EXPOSE 443 
 ADD ./run.sh /run.sh
 CMD /run.sh
 
-RUN cat /root/footer.txt; \
-	rm /root/header.txt; \
-	rm /root/footer.txt;

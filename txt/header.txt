@@ -8,3 +8,5 @@
                                                                                                                                                  |__|/ \|__| 
 Congratulations and thank you for installing the HUBzero CMS Development Docker Container
 
+Your development secrets:
+
