@@ -3,6 +3,12 @@ This Docker container allows for community members to investigate, evaulate, and
 
 This container should not be used within a production setting, however it provides a basic set of functionality to allow for sample content creation.
 
+## System Requirements for Evaluation
+* Docker Engine
+* 1 GB of RAM
+* 2.5 GB of Disk
+* 1 - 2 cores
+
 ## Getting Started
 1. Clone this repository: `git clone https://github.com/hzcms-sgi-docker`
 1. Build the container: `cd hzcms-sgi-docker && docker build -t hubzero-cms ./`
