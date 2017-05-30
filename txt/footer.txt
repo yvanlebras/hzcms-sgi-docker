@@ -1,0 +1,12 @@
+[SETUP INSTRUCTIONS]
+1. Clone the HUBzero Repository in the same directory as the docker-compose.yml file.
+Simply type: git clone git@github.com/hubzero/hubzero-cms
+
+2. For development purposes, make the files all world-readable and world-writable.
+
+3. Use Docker Compose to launch the HUBzero LAMP Stack and Solr.
+
+Using Docker Compose:
+
+	 docker-compose up
+
