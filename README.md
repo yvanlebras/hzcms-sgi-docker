@@ -1,7 +1,7 @@
 # Science Gateway Institute Demo Image
 This Docker container allows for community members to investigate, evaulate, and start building a Gateway using the HUBzero platform before investing time and effort in a production-level environment.
 
-This container should not be used within a production setting, however it provides a basic set of functionality to allow for sample content creation.
+This container should _not_ be used within a production setting, however it provides a basic set of functionality to allow for sample content creation.
 
 ## System Requirements for Evaluation
 * Docker Engine
