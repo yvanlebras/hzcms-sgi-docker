@@ -1,4 +1,4 @@
-FROM debian:latest 
+FROM debian:8 
 
 ADD txt/header.txt /root
 
