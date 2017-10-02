@@ -16,7 +16,7 @@ At this time, simulations tools are not supported. To evaluate simulation tools,
 * 1 - 2 cores
 
 ## Getting Started
-1. Clone this repository: `git clone https://github.com/hzcms-sgi-docker`
+1. Clone this repository: `git clone https://github.com/hubzero/hzcms-sgi-docker`
 1. Build the container: `cd hzcms-sgi-docker && docker build -t hubzero-cms ./`
 1. Run the container: `docker run -p 443:443 hubzero-cms`
 1. In your browser, navigate to https://localhost.
